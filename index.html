@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="navigation"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="flex.css">
+    <title>Portfolio Wireframe</title>
+</head>
+
+<body>
+    <nav>
+        <div class='name'>Jerrad Moon</div>
+        <div class='navMobile'>&#9776;</div>
+        <div class='navDesktop'>
+            <p>
+                <a href="#_about">About</a>
+                <a href="#_portfolio">Portfolio</a>
+            </p>
+        </div>
+    </nav>
+    <main>
+        <ul class='menu'>
+            <li><a href="#_about">About</a></li>
+            <li><a href="#_portfolio">Portfolio</a></li>
+        </ul>
+        <header>
+            <h1 class="greeting">Hey, This is Jerrad.</h1>
+        </header>
+        <section class="hero">
+            <img src='resources/takeOnMe.jpg' alt="Take On Me" />
+        </section>
+        <p class='lowGreet' id="_about">Aspiring web developer studying at Thinkful.</p>
+        <section class="about">
+            <div class="shade">
+                <h2>About Me</h2>
+                <p>
+                    I started on this path because I have always loved computers and how they work.
+                    I also love working collaboratively not only because many minds on a problem equates
+                    to more solutions, but the variance in those solutions pushes my skills in development
+                    even further. I love to learn, and I love taking on new challenges because they force you
+                    out of your comfort zone and show you what you are truly made of.
+                </p>
+
+                <p>
+                    To me, coding is unique in that it allows creativity. it also allows taking things
+                    from scratch and making some amazing end results. All I am really doing is learning
+                    how to talk to machines... so if that skynet thing ever really does happen, I'm ready.
+                    And so is Arnold.
+                </p>
+
+                <p>
+                    If I'm not coding, I'm either studying, Playing video games, Reading a book, or spending time
+                    with loved ones.
+                </p>
+            </div>
+        </section>
+        <h2 id="_portfolio">Portfolio</h2>
+        <section class="portfolio">
+            <div class="project1">
+                <h3>Quiz App</h3>
+                <p>
+                    This is my Quiz App - "Chrono Trigger: the Quiz". The app iterates through questions using JS
+                    and jQuery, displays whether you got the answer right/wrong, and tallies your score overall.
+                    This app could easily be molded to fit with any quiz or test content, and would be great to use
+                    as a teaching tool / testing tool in a classroom.
+                </p>
+                <a target="_blank" href="https://jerradm85.github.io/quizapp/"><img src="resources/QuizApp.png"
+                        alt="Screenshot of Quiz App"></a>
+                <ul>
+                    <li><a href="https://github.com/jerradm85/quizapp">Link</a> to Github Repo</li>
+                    <li>Skills used: HTML, CSS, JS, jQuery</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="email"><a href="mailto:jerradm85@gmail.com">E-Mail</a></div>
+        <div class="github"><a target="_blank" href="https://github.com/jerradm85">Github</div>
+        <div class="linkedIn"><a target="_blank" href="https://www.linkedin.com/in/jerrad-moon-b42695169/">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="logic.js"></script>
+
+</html>
