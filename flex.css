@@ -121,6 +121,7 @@
   }
 
   .navMobile {
+      cursor: pointer;
       color: white;
       position: fixed;
       padding-right: 50px;
@@ -149,6 +150,7 @@
   }
 
   .about {
+    font-size: 24px;
     background-color: rgba(0,0,0,0.7);
     display: block;
     position: relative;
@@ -164,7 +166,7 @@
   }
 
   .about p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25px;
     letter-spacing: 1px;
   }
